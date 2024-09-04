@@ -8,10 +8,10 @@ namespace services
     public CascadeFactory   CascadeFactory  { get; }
     public IAlphabetCarrier AlphabetCarrier { get; }
 
-    public Services()
+    public Services(string alphabet)
     {
       RandomService = new UnityRandomService();
-      AlphabetCarrier = new AlphabetCarrier(RandomService);
+      AlphabetCarrier = new AlphabetCarrier(RandomService, alphabet);
       CascadeFactory = new CascadeFactory(RandomService, AlphabetCarrier);
     }
   }

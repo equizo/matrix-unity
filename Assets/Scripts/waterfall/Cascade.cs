@@ -26,7 +26,7 @@ namespace waterfall
       _randomService = randomService;
 
       bool isFast = _randomService.Value <= Config.FastCascadeProbability;
-      var period = isFast ? Config.CascadeTimerBoundaries.Item2 : Config.CascadeTimerBoundaries.Item1;
+      var period = isFast ? Config.UpdateCascadeIntervalBoundaries.Item2 : Config.UpdateCascadeIntervalBoundaries.Item1;
       _timer = new Timer(period);
       _timer.OnTick += Move;
 

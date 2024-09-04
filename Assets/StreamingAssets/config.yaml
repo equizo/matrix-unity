@@ -1,0 +1,26 @@
+time:
+    scale: 1
+    update_cascade_interval: 0.1125
+    add_cascade_interval: 0.04
+    cascade_speedup: 0.35
+
+cascade:
+    short_size_min: 2
+    short_size_max: 6
+    char_change_probability: 0.03
+    short_probability: 0.2
+    full_size_factor: 0.5
+    fast_probability: 0.1
+
+colors:
+    background: "#000000"
+    first_character: "#CFCFCF"
+    regular_character: "#28791E"
+    trail: 
+     - "#003300"
+     - "#004C00"
+     - "#006600"
+     - "#008000"
+     - "#009900"
+     - "#00B200"
+     - "#00CC00"
