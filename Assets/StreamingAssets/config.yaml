@@ -13,7 +13,7 @@ cascade:
     fast_probability: 0.1
 
 colors:
-    background: "#000000"
+    background: "#000000" # OUT OF SERVICE
     first_character: "#CFCFCF"
     regular_character: "#28791E"
     trail: 

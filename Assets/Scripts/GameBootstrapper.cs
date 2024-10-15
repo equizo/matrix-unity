@@ -32,5 +32,5 @@ public class GameBootstrapper : MonoBehaviour
     _game = new Game(services, _ui);
 
   private void Update() =>
-    _game?.Update(Time.deltaTime);
+    _game.Update(Time.deltaTime);
 }

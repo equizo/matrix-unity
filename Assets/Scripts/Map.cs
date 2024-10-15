@@ -11,7 +11,7 @@ public class Map
                       nonMonospaceFontError;
 
     float lineHeight = fontSize * 0.8f;
-    int rowsCount = Mathf.FloorToInt(holderSize.y / lineHeight) - 1;
+    int rowsCount = Mathf.FloorToInt(holderSize.y / lineHeight) - 2;
 
     return (columnCount, rowsCount);
   }
