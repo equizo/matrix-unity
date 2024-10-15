@@ -22,4 +22,4 @@ Japanese Monospace, thx to SHIODA Masaharu
 https://github.com/mshioda/relaxed-typing-mono-jp
 
 ## Configuration
-Matrix_Data\StreamingAssets, with the background color property being Out of Service.
+```Matrix_Data/StreamingAssets/config.yaml``` with the background color property being Out of Service.
